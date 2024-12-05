@@ -17,3 +17,10 @@ def hello_universe():
     for name in names:
         say_hello(name)
         say_goodbye(name)
+
+
+@flow
+def goodbye_universe():
+    names = ["Sam", "Sal", "Steve"]
+    for name in names:
+        say_goodbye(name)

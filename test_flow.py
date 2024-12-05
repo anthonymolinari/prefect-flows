@@ -16,7 +16,6 @@ def hello_universe():
     names = ["Jim", "John", "Joe"]
     for name in names:
         say_hello(name)
-        say_goodbye(name)
 
 
 @flow

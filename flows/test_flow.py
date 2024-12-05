@@ -10,7 +10,3 @@ def say_hello(name: str):
 def hello_universe(names: list[str]):
     for name in names:
         say_hello(name)
-
-
-if __name__ == "__main__":
-    hello_universe(['Marvin', 'Trillian', 'Ford'])

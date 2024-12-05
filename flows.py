@@ -1,14 +1,5 @@
-from prefect import flow, task
-
-
-@task(log_prints=True)
-def say_hello(name: str):
-    print(f"Hello {name}!")
-
-
-@task(log_prints=True)
-def say_goodbye(name: str):
-    print(f"Goodbye {name}!")
+from prefect import flow
+from tasks.test_task import say_hello, say_goodbye
 
 
 @flow

@@ -7,6 +7,7 @@ def say_hello(name: str):
 
 
 @flow
-def hello_universe(names: list[str]):
+def hello_universe():
+    names = ["Jim", "John", "Joe"]
     for name in names:
         say_hello(name)
